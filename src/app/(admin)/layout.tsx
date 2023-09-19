@@ -6,12 +6,9 @@ export default function RootLayoutMarketing({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body>
-        <Topbar />
-        <p>I am root layout Admin</p>
-        {children}
-      </body>
-    </html>
+    <>
+      <p>I am root layout Admin</p>
+      {children}
+    </>
   );
 }

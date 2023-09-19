@@ -7,13 +7,10 @@ export default function RootLayoutMarketing({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body>
-        <Topbar />
-        <p>I am root layout marketing</p>
-        {children}
-        <Footer />
-      </body>
-    </html>
+    <>
+      <p>I am Marketing layout</p>
+      {children}
+      <Footer />
+    </>
   );
 }
